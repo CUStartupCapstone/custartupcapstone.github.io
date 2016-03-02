@@ -1,3 +1,10 @@
+### How to add your company:
+add 700x350 jpg image to img/
+open _includes/portfolio.html
+copy tandem's
+
+
+
 # Stylish Portolio template for Jekyll
 
 A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
