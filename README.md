@@ -1,7 +1,7 @@
 ### How to add your company:
-add 700x350 jpg image to img/
-open _includes/portfolio.html
-copy tandem's
+add 700x350 jpg image to img/  
+open _includes/portfolio.html  
+copy tandem's  
 
 
 
