@@ -16,6 +16,11 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.back-n {
+  color: #fff;
+  background-color: #7A92A4;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
