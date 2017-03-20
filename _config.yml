@@ -1,28 +1,35 @@
+url: https://y7kim.github.io
+baseurl: ""
+
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: CU Boulder Startup Capstone
+email: your-email@domain.com
+description: "2017 Computer Science Entrepreneurial Capstone at the University of Colorado Boulder"
 
-# User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
 
-# API settings
-google_api_key:
+# Team names, titles and social links
+people:
+- name: Professor Rick Han
+  pic: rick
+  position: Associate Professor - Department of Computer Science
+  social:
+    - title: link
+      url: https://www.cs.colorado.edu/~rhan/
+
+- name: Zach Nies
+  pic: zach
+  position: VP of Education - Techstars
+  social:
+    - title: twitter
+      url: https://twitter.com/zachnies?lang=en
+    - title: linkedin
+      url: https://www.linkedin.com/in/zachnies
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/CUStartupCapstone
 
 # Build settings
 markdown: kramdown
+permalink: pretty

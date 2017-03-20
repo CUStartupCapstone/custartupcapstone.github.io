@@ -1,19 +1,3 @@
-### How to add your company:
-add 700x350 jpg image to img/  
-open _includes/portfolio.html  
-copy tandem's  
+# Computer Science Entrepreneurial Capstone at CU Boulder
 
-
-
-# Stylish Portolio template for Jekyll
-
-A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
-
-See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
-
-## To use the Stylish Portfolio template in your project
-
-- Start by adding your info in `_config.yml`
-- Add as many address lines as you want. Your address will also be used to show your location on the map.
-- For the emdeded map to work you'll need to [get a key from Google Maps Embed API](https://developers.google.com/maps/documentation/embed/?hl=en)
-- In `_layouts/front.html` reorder or remove section as you prefer.
+The goal of this course is to give Computer Science students the tools to be successful technical co-founders of their own startups.  We take the students through the initial stages of founding a startup, including team formation, validating their ideas, and pitching.  We employ the Lean Startup methodology, which teaches among other concepts to "get out of the building" and develop customers.  Students will iterate on their startup concept, seeking customer validation, and pivoting as needed.  Students will develop a minimum viable product, and will pitch their final startup concept, and be evaluated on product/market fit.  The emphasis on early customer development will help teams develop sustainable business models.  We will seek to bring in entrepreneurs and venture capitalists from the Boulder ecosystem, including both current and former CU students, who have had success founding or working at IT startups, to give the class useful perspectives on what it's like to be out there in the startup world.

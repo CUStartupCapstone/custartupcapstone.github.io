@@ -1,201 +1,920 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CU Boulder Startup Capstone</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="2017 Computer Science Entrepreneurial Capstone at the University of Colorado Boulder">
+    <link rel="canonical" href="http://localhost:4000/">
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <title>CU Startup Capstone</title>
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
 
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-  <header id="top" class="header">
-  <div class="text-vertical-center">
-    <h1>Entrepreneurial Projects Capstone</h1>
-    <br>
-    <h1>Department of Computer Science, University of Colorado Boulder</h1>
-    <h3>Enabling computer science seniors to build their own technical businesses</h3>
-    <br>
-    <a href="mailto:richard.han@colorado.edu" class="btn btn-dark btn-lg">Apply Now</a>
-  </div>
-</header>
 
-  <aside class="about back-n">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-      <h1>Updates!</h1>
-      <hr class="small">
-        <h2>Join us on April 28 at the Demo Day for the CS Entrepreneurial Capstone (3:30 pm in ECCR 265 of the Engineering Center).  See all 6 student teams publicly pitch their startup businesses</h2>
-      </div>
-    </div>
-  </div>
-</aside>
 
-  <section id="portfolio" class="portfolio back-n">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <div class="row">
-        <h2>Outloud wins $1000 at the 2016 NVC Championships!</h2>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank" href="">
-                <img class="img-portfolio img-responsive" src="img/nvc_outloud_1.jpg">
-              </a>
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">CU Boulder Startup Capstone</a>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank"  href="http://ascentrobotics.com">
-                <img class="img-portfolio img-responsive" src="img/nvc_outloud_2.jpg">
-              </a>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Companies</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#timeline">Time Line</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#instructors">Instructors</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <!-- /.row  -->
+            <!-- /.navbar-collapse -->
         </div>
-        <h2>Dive Coding wins the Galvanize Prize!</h2>
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="portfolio-item">
-            <a target="_blank" href="">
-              <img class="img-portfolio img-responsive" src="img/nvc_divecoding_1.jpg">
-            </a>
-          </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Computer Science Entrepreneurial Capstone at the University of Colorado Boulder</div>
+                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
+            </div>
         </div>
-        <!-- /.row (nested) -->
-      </div>
-      <!-- /.col-lg-10 -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
+    </header>
+<!--
+        
+          
+        
+          
+        
+          
+        
+ -->
 
-  <section id="about" class="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Build your own computer science startup as your senior year capstone project!</h2>
-        <p class="lead">We learn by doing.  You will pitch ideas, form teams, find customers, build a prototype, and launch your business.</p>
-      </div>
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
 
-  <section id="portfolio" class="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h2>Capstone projects 2016</h2>
-        <hr class="small">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank" href="http://betandem.com">
-                <img class="img-portfolio img-responsive" src="img/betandem-logo.jpg">
-              </a>
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Learn more about the Capstone</h3>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank"  href="http://ascentrobotics.com">
-                <img class="img-portfolio img-responsive" src="img/ascent.png">
-              </a>
+            <div class="row text-center">
+                <p>The Goal of the Capstone is to provide Computer Science students with the tools to be successful technical co-founders of their own startups. We will explore the initial stages of founding a startup, including team formation, idea validation, pivoting and pitching, while employing an iterative methodology. Student teams will develop a minimum viable product, pitch their final startup concept, and be evaluated on product/market fit.</p>
+                <!--div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">-</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">-</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">-</p>
+                </div-->
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank"  href="http://workit-app.com">
-                <img class="img-portfolio img-responsive" src="img/Workit_logo.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank" href="http://divecoding.github.io/">
-                <img class="img-portfolio img-responsive" src="img/divecoding.png">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank" href="http://outloud.io">
-                <img class="img-portfolio img-responsive" src="img/outloud.png">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a target="_blank" href="http://aptabode.com">
-                <img class="img-portfolio img-responsive" src="img/apt-abode.png">
-              </a>
-            </div>
-          </div>
         </div>
-        <!-- /.row (nested) -->
-      </div>
-      <!-- /.col-lg-10 -->
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Companies</h2>
+                    <h3 class="section-subheading text-muted">Companies that have been started in the Capstone</h3>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Almond</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Crawlr</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>DIY Defense</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Furn</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Glimpse</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ocean</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Omake</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Shirt Karate</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Stuff Sanity</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>TheGrower.io</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <!--a href="#portfolioModal" class="portfolio-link" data-toggle="modal"-->
+                    <a href="https://example.com" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/companies/untited.png" class="img-responsive img-centered" width="360" height="260">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Wizard Kitty</h4>
+                        <p class="text-muted">-</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="timeline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Time Line</h2>
+                    <h3 class="section-subheading text-muted">Rough layout of the 2016-2107 year long capstone</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/teams.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>August</h4>
+                                    <h4 class="subheading">Form Teams</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Within the first few weeks of class, students pitch ideas to each other and with the goal of forming teams. Some students come to class with multiple ideas, while others come with just one. Students self select there teams, however students may switch of leave teams throughout the year.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/idea.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>September - October</h4>
+                                    <h4 class="subheading">Idea Validation</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Once students form teams, they are taught to go out and validate there ideas. Students are encouraged not to build products or MVPs. Students go through the steps of learning how to validate not only idea/market fit, but founder/market fit. The thought of idea validation is present through the Capstone.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/pitch.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>November - December</h4>
+                                    <h4 class="subheading">MVP Creation & Pitch Practice</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Now that students have validated there ideas, they are encouraged to create MVPs to test the assumptions that they have made about their business. They also learn and practice how to present there business to others. At the end of the first semester they present to a group of industry professionals from all across Boulder.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/ramping.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>January - March</h4>
+                                    <h4 class="subheading">Ramping Up</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Students spend the seconds semester building out their products. To assist in this numerous industry professionals are brought in to teach about marketing, tax law, intellectual property, scaling, hiring, and more. Throughout the semester students practice their pitches in preparation of the <a href="http://www.colorado.edu/nvc/" target="_blank">CU NVC</a>.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4><a href="http://www.cs.colorado.edu/~rhan/CSCI_4358_5350_Spring_2017/Syllabus%20CSCI%204358_5350%20Entrepreneurial%20Projects%20II.html" target="_blank" style="color: #fff;">Learn<br>More</a></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section -->
+    <section id="instructors" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Instructors</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/rick.jpg" class="img-responsive img-circle" alt="" width="225" height="225">
+                        <h4>Professor Rick Han</h4>
+                        <p class="text-muted">Associate Professor - Department of Computer Science</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li>
+                                <a href="https://www.cs.colorado.edu/~rhan/" target="_blank">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/zach.jpg" class="img-responsive img-circle" alt="" width="225" height="225">
+                        <h4>Zach Nies</h4>
+                        <p class="text-muted">VP of Education - Techstars</p>
+                        <ul class="list-inline social-buttons">
+                            
+                            <li>
+                                <a href="https://twitter.com/zachnies?lang=en" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.linkedin.com/in/zachnies" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; CU Boulder Startup Capstone 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                        <li><a href="http://github.com/CUStartupCapstone" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wizard Kitty</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</section>
 
-  <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong></strong>
-        </h4>
-        <p>
-          
-          <br>
-          
-          <br>
-          
-        </p>
-        <hr class="small">
-        <p class="text-muted">Copyright &copy;  2016</p>
-      </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>TheGrower.io</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
 
-  <!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Stuff Sanity</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Shirt Karate</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- Custom Theme JavaScript -->
-<script src="js/custom.js"></script> 
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Omake</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ocean</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Glimpse</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Furn</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>DIY Defense</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Crawlr</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Almond</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-</body>
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+    </body>
 </html>
