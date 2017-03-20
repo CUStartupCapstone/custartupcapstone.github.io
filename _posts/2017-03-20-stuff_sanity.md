@@ -1,0 +1,7 @@
+---
+title: Stuff Sanity
+subtitle: "-"
+site-url: https://example.com
+thumbnail: untited.png
+
+---
