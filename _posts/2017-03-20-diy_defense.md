@@ -1,7 +1,7 @@
 ---
 title: DIY Defense
 subtitle: ""
-site-url: https://diy-defense.com
+site-url: http://diy-defense.com
 thumbnail: diy-defense.png
 
 ---
