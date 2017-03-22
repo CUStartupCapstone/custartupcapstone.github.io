@@ -1,7 +1,7 @@
 ---
-title: Shirt Karate
-subtitle: "-"
-site-url: https://example.com
-thumbnail: untited.png
+title: ShirtKarate
+subtitle: "Data Driven Merchandise"
+site-url: https://shirtkarate.com
+thumbnail: shirtkarate.png
 
 ---
