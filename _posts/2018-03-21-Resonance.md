@@ -1,5 +1,5 @@
 ---
-title: Ommake
+title: Resonance
 subtitle: "An integrated platform for home builders and remodelers struggling with organization and scheduling."
 site-url: https://ommake.com
 thumbnail: ommake.png
