@@ -1,7 +1,7 @@
 ---
 title: SkillForge
-subtitle: "Crowd-sourced Education Platform"
-site-url: http://wisepool.io
-thumbnail: wisepool-logo.png
+subtitle: ""
+site-url: https://pgutenko.github.io/
+thumbnail: SkillForge.png
 
 ---

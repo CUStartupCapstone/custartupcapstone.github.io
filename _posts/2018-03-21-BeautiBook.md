@@ -1,6 +1,6 @@
 ---
 title: BeautiBook
-subtitle: "Remote Monitoring and Automation for Hobbyist Indoor Growers"
-site-url: http://thegrower.io/
-thumbnail: growerIcon.png
+subtitle: "Organize, share, and discover makeup looks easily and beautifully"
+site-url: http://beautibookapp.com/
+thumbnail: BeautiBook.png
 ---
