@@ -45,10 +45,35 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Computer Science Entrepreneurial Capstone at the University of Colorado Boulder</div>
-                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
+<!--                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>-->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><strong>&#36;</strong> Donate</button>
             </div>
         </div>
     </header>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"><strong>Instructions to Donate to CS Entrepreneurial Capstone</strong></h4>
+          </div>
+          <div class="modal-body">
+            <p> <strong>&bull;</strong> On the donate page, select or enter the amount you wish to give, and whether or not this gift is in memory or in honor of someone.<br>
+              <strong>&bull;</strong> Add the gift to your Gift Basket and continue browsing, or click “Give Now” to complete your donation.<br>
+              <strong>&bull; Please make sure you enter "13403130 Han CS Sr Entrepreneurial Capstone, CU Foundation: 0125610" in the comments section of the form.</strong>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" onclick="location.href='https://giving.cu.edu/fund/write-fund';">Continue</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
