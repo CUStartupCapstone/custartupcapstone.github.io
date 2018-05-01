@@ -1,6 +1,6 @@
 ---
 title: Lambda Leaf
-subtitle: "Quality Assurance done right. <br><br><br><br><br>"
+subtitle: "Quality Assurance done right."
 site-url: http://lambdaleaf.com/
 thumbnail: LambdaLeaf.svg
 
