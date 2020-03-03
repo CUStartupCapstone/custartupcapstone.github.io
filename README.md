@@ -9,4 +9,4 @@ The goal of this course is to give Computer Science students the tools to be suc
 
 ## How to add a company
 
-See [Example PR](https://github.com/CUStartupCapstone/custartupcapstone.github.io/pull/23)
+See [Example PR](https://github.com/CUStartupCapstone/custartupcapstone.github.io/pull/24)
