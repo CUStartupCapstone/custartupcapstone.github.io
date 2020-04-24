@@ -1,6 +1,6 @@
 ---
 title: SmartGuitar
-subtitle: "The best startup in the world"
+subtitle: "Personalize your playing"
 site-url: http://torinhopkins.wixsite.com/smart-guitar
 thumbnail: sg.png 
 ---
